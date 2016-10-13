@@ -1,0 +1,39 @@
+html, body, div{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  background-color: #111;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100px;
+  top: 0px;
+}
+
+nav ul{
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+nav li{
+  display:inline-block;
+  margin: 0px;
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  border-right: 1px solid #CCCCCC
+  text-align:center;
+  line-height: 40px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+body{
+  font-size: Verdana, Arial;
+  font-size: 20px;
+  background: #CCCCCC;
+}

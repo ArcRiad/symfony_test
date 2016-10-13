@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <title>Ajout d'un contact</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+          <li><p><a href="/project/web/app_dev.php/add">Ajouter/List</a></p></li>
+          <li><p><a href="/project/web/app_dev.php/list">Modifier/List</a></p></li>
+      </ul>
+    </nav>
+  </header>
+  {{ form_start(form) }}
+
+  {{ form_widget(form) }}
+<button type="submit">Ajouter</button>
+  {{ form_end(form) }}
+
+</body>
+</html>
